@@ -15,7 +15,7 @@ export default function App() {
    // setError('');
 
     axios
-      .post("http://localhost:3000/api/short", { originalUrl })
+      .post("https://url-shortener-backend.onrender.com/api/shorten", { originalUrl })
       .then((res) => {
         setShortUrl(res.data);
         console.log("API response", res.data);
