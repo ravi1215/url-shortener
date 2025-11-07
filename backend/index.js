@@ -32,7 +32,7 @@ app.post('/api/short', async (req, res) => {
             return res.status(400).json({ message: "Please provide a valid URL" });
         }
         const shortUrl = nanoid(8);
-        const myUrl = `http://localhost:3000/${shortUrl}`;
+        const myUrl = `${process.env.BACKEND_URL}/${shortUrl}`;
         const qrCodeImg = await QRCode.toDataURL(myUrl);
 
         const url = new Url({ originalUrl, shortUrl });
