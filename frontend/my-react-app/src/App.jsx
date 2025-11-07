@@ -15,7 +15,7 @@ export default function App() {
    // setError('');
 
     axios
-      .post("https://url-shortener-65c4.onrender.com/", { originalUrl })
+      .post(import.meta.env.VITE_API_URL, { originalUrl })
       .then((res) => {
         setShortUrl(res.data);
         console.log("API response", res.data);
