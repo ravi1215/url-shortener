@@ -1,4 +1,4 @@
 {
   "buildCommand": "npm install --registry https://registry.npmjs.org/ && npm run build",
-  "outputDirectory": "frontend/my-react-app/dist"
+  "outputDirectory": "./frontend/my-react-app/dist"
 }
