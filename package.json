@@ -1,0 +1,14 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener with React and Express",
+  "main": "backend/index.js",
+  "scripts": {
+    "build": "cd frontend/my-react-app && npm install --registry https://registry.npmjs.org/ && npm run build",
+    "start": "cd backend && npm start",
+    "dev": "cd frontend/my-react-app && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
