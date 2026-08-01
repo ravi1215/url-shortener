@@ -3,10 +3,10 @@
 A simple URL shortener built with **React**, **Express**, **MongoDB**, and **Tailwind CSS**. It allows users to shorten any URL and generates a QR code for easy access.
 
 ## Features
-- ⚡ Shorten URLs instantly
-- 🎯 Generate QR codes automatically
-- 📱 Responsive design with Tailwind CSS
-- 🔗 Copy shortened links with one click
+- Shorten URLs instantly
+- Generate QR codes automatically
+- Responsive design with Tailwind CSS
+- Copy shortened links with one click
 
 ## Technologies Used
 - **Frontend**: React, Vite, Tailwind CSS, Lucide Icons
@@ -117,3 +117,6 @@ Redirect to original URL
 5. Share with others!
 
 ## Fast • Secure • Simple
+```
+
+
