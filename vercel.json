@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd frontend/my-react-app && npm install --registry https://registry.npmjs.org/ && npm run build",
+  "outputDirectory": "frontend/my-react-app/dist",
+  "framework": "vite"
+}
