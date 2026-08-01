@@ -4,7 +4,7 @@
   "description": "URL Shortener with React and Express",
   "main": "backend/index.js",
   "scripts": {
-    "build": "cd frontend/my-react-app && npm install --registry https://registry.npmjs.org/ && npm run build",
+    "build": "cd frontend/my-react-app && npm install --registry https://registry.npmjs.org/ && npm run build && cd ../.. && mkdir -p dist && cp -r frontend/my-react-app/dist/* dist/",
     "start": "cd backend && npm start",
     "dev": "cd frontend/my-react-app && npm run dev"
   },
